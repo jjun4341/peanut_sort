@@ -17,5 +17,7 @@ def peanut_sort(first_number, last_number):
         num.append(las_num)
         
         i = i + 1
+        if 0 in num:
+            break
 
     print(num)
